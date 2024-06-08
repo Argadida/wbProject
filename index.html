@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="asset/css/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+</head>
+<body class="bg-gray-200 dark:bg-gray-500">
+
+  <header id="topHeader" class="bg-white dark:bg-gray-800 py-4 shadow-lg fixed top-0 z-[5] right-0 left-0 flex">
+    <div class="container mx-auto px-1 flex flex-col md:flex-row justify-center items-center md:h-16 h-auto">
+      <div class="md:block hidden">
+        <img src="asset/gambar/logo1.png" alt="" class="md:w-36 md:h-36 md:mt-3 md:flex-none flex-[1] dark:hidden">
+        <img src="asset/gambar/logo2.png" alt="" class="md:w-36 md:h-36 md:mt-3 md:flex-none flex-[1] hidden dark:block">
+      </div>
+
+      <div class="flex gap-32">
+        <div class="">
+          <div class="text-2xl font-bold  font-font1 md:hidden block dark:text-white">E-GADGET STORE</div>
+        </div>
+
+        <div class="md:hidden block " onclick="showhideMenu()">
+          <i class="bx bx-menu text-4xl dark:text-white"></i>
+        </div>
+  
+
+      </div>
+
+        <nav  class="mt-4 md:mt-0  md:flex flex-col md:flex-row basis-auto justify-between items-start md:items-center gap-5 md:gap-0">
+            <ul id="menu" class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 -ml-12 md:ml-60 font-font md:mt-3">
+                <li><a href="home.html" class="text-purple-500 text-lg font-semibold dark:text-cl1">HOME</a></li>
+                <li><a href="shop.html" class="text-gray-600 text-lg font-semibold dark:text-white hover:text-purple-500">SHOP</a></li>
+                <li><a href="aboutUS.html" class="text-gray-600 text-lg font-semibold dark:text-white hover:text-purple-500">ABOUT US</a></li>
+                <li><a href="blog.html" class="text-gray-600 text-lg font-semibold dark:text-white hover:text-purple-500 border-r-2 pr-4 border-black dark:border-white">BLOG</a></li>
+                <!-- <div class="h-1 bg-black"></div> -->
+                <div class="flex">
+                  <div class="relative md:-mt-2">
+                       <label for="Search" class="sr-only"> Search </label>
+                       <div class="flex">
+                         <i class='bx bx-search absolute mt-[13px] ml-48 md:ml-44 dark:text-white'></i>
+                         <input type="text" id="Search" placeholder="Search for..." class="placeholder:dark:text-white dark:text-white w-full rounded-sm dark:bg-transparent border-gray-200 py-3 pe-10 shadow-sm sm:text-sm outline-none focus:border-b-2 focus:border-cl1 dark:focus:border-b-2 dark:focus:border-white transition-all duration-200"/>
+                       </div>
+                       
+                   </div>
+                   
+                   <div class="flex space-x-1 text-2xl  md:mt-0 md:ml-3">
+                       <button class="text-gray-600 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white duration-200">
+                           <i class='bx bxs-basket'></i>
+                       </button>
+                       <button class="text-gray-600 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white duration-200 ">
+                           <a href="login.html"><i class='bx bx-user-circle'></i></a>
+                       </button>
+                   </div> 
+    
+                </div>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+    <main class="relative">      
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg md:flex items-center justify-center min-h-screen mx-auto md:flex-wrap-reverse flex-row-reverse">
+            <div class="space-y-4 font-font1 md:h-36 h-full md:-mt-[350px] mt-[80px] md:px-0 px-5 md:py-3 py-3">
+                <div class="text-cl1 font-bold md:text-lg text-base">-30% OFF</div>
+                <p class="md:text-8xl text-3xl font-bold dark:text-white">SMART WATCHS</p>
+                <p class="md:text-8xl text-3xl font-bold dark:text-white">IN OUR STORE</p>
+                <div class="flex">
+                    <div class="h-[3px] w-14 bg-cl1 mr-6"></div>
+                    <div class="h-[3px] w-52 bg-cl1"></div>
+                </div>
+                <div class="">
+                    <p class="text-gray-600 md:text-xl text-lg md:ml-12 dark:text-gray-100">new product from apple can make you feel</p>
+                    <p class="text-gray-600 md:text-xl text-lg md:ml-48 dark:text-gray-100">new everyday</p>
+                </div>
+                <p class="font-semibold text-lg dark:text-white">STARTING FROM <span class="text-cl1">500k</span></p>
+                <div class="flex md:space-x-4 md:flex-row flex-col space-y-2 h-auto">
+                    <button class="bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-600 dark:hover:text-white text-white md:px-8 md:py-5 py-3 rounded-full text-base hover:bg-cl1 transition duration-300">LEARN MORE</button>
+                    <button class="bg-cl1 text-white md:px-8 md:py-5 py-3 rounded-full text-base hover:bg-blue-600 transition duration-300">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="ml-12">
+                <img src="asset/gambar/produk1.png" alt="Smart Watch" class="md:w-96 md:h-96 md:-mt-5  mt-12 -ml-12 py-5">
+            </div>
+
+        </div>
+
+        <div class="mb-32">
+          <div class="font-font1">
+              <div class="md:w-[360px] w-full flex justify-center mt-32">
+                  <h1 class="text-3xl font-bold mb-10 dark:text-white">Article</h1>
+              </div>
+              <div class="h-[3px] w-[80%] bg-cl1 md:ml-[130px] ml-12 -mt-10"></div>
+          </div>
+          <div class="flex md:flex-row flex-col md:space-x-4 justify-center md:-mt-20 mt-5 font-font1 md:p-0 p-3">
+              <div class="md:w-[25%] w-full md:mt-48 mt-4 md:hover:mt-28 duration-300">
+                  <article class="overflow-hidden rounded-lg border border-gray-100 bg-white dark:bg-gray-800 dark:border-gray-600 shadow-sm hover:border hover:border-cl1 duration-300 hover:shadow-xl hover:shadow-gray-300">
+                      <img
+                        alt=""
+                        src="asset/gambar/blg1.png"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="p-4 sm:p-6">
+                        <a href="#">
+                          <h3 class="text-lg font-medium text-gray-900 dark:text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          </h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-100">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+                          pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                          mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+                          dignissimos. Molestias explicabo corporis voluptatem?
+                        </p>
+                    
+                        <a href="#" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+                          Find out more
+                    
+                          <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+                            &rarr;
+                          </span>
+                        </a>
+                      </div>
+                    </article>
+                </div>
+      
+                <div class="md:w-[25%] w-full md:mt-48 mt-4 md:hover:mt-28 duration-300">
+                  <article class="overflow-hidden rounded-lg border border-gray-100 bg-white dark:bg-gray-800 dark:border-gray-600 shadow-sm hover:border hover:border-cl1 duration-300 hover:shadow-xl hover:shadow-gray-300">
+                      <img
+                        alt=""
+                        src="asset/gambar/blg3.png"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="p-4 sm:p-6">
+                        <a href="#">
+                          <h3 class="text-lg font-medium text-gray-900 dark:text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          </h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-100">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+                          pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                          mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+                          dignissimos. Molestias explicabo corporis voluptatem?
+                        </p>
+                    
+                        <a href="#" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+                          Find out more
+                    
+                          <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+                            &rarr;
+                          </span>
+                        </a>
+                      </div>
+                    </article>
+                </div>
+                
+      
+                <div class="md:w-[25%] w-full md:mt-48 mt-4 md:hover:mt-28 duration-300">
+                  <article class="overflow-hidden rounded-lg border border-gray-100 bg-white dark:bg-gray-800 dark:border-gray-600 shadow-sm hover:border hover:border-cl1 duration-300 hover:shadow-xl hover:shadow-gray-300">
+                      <img
+                        alt=""
+                        src="asset/gambar/blg4.png"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="p-4 sm:p-6">
+                        <a href="#">
+                          <h3 class="text-lg font-medium text-gray-900 dark:text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          </h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-100">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+                          pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                          mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+                          dignissimos. Molestias explicabo corporis voluptatem?
+                        </p>
+                    
+                        <a href="#" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+                          Find out more
+                    
+                          <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+                            &rarr;
+                          </span>
+                        </a>
+                      </div>
+                    </article>
+                </div>
+          </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col justify-center mx-auto md:space-x-10 md:p-10 p-3 md:w-[80%] w-full space-y-4">
+          <!-- Smartphone Section -->
+          <div class="flex flex-col items-center bg-white dark:bg-gray-800 p-2 rounded-lg">
+              <div class="flex md:flex-row flex-col items-center mt-16 mb-14 ml-10">
+                  <img src="asset/gambar/produk8.png" alt="Smartphone" class="w-56 h-60 mr-4">
+                  <div class="mt-4 font-font1">
+                      <h2 class="text-xl font-bold text-cl1">BIG SUMMER SALE</h2>
+                      <h2 class="text-xl font-bold dark:text-white">ON ALL SMARTPHONES</h2>
+                      <p class="text-sm my-2 w-[60%] dark:text-gray-100">Quisque rhoncus orci vitae nisi rutrum rutrum leusada laoreet urna sed</p>
+                      <p class="text-lg dark:text-white">DON'T MISS! <span class="text-cl1">UP TO 70%</span></p>
+                      <button class="mt-4 bg-cl1 text-white px-8 py-4 rounded-full hover:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-800">LEARN MORE</button>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Smartphone Section -->
+          <div class="flex flex-col items-center bg-white dark:bg-gray-800 p-2 rounded-lg">
+              <div class="flex md:flex-row flex-col items-center mt-16 mb-14 ml-12">
+                  <img src="asset/gambar/produk9.png" alt="Laptop" class="w-52 h-full mr-10">
+                  <div class="mt-4 font-font1">
+                      <h2 class="text-xl font-bold text-cl1">NEW TRENDS IN HANDPHONE</h2>
+                      <h2 class="text-xl font-bold dark:text-white">DESIGN</h2>
+                      <p class="text-sm my-2 w-[60%] dark:text-gray-100">Quisque rhoncus orci vitae nisi rutrum rutrum leusada laoreet urna sed</p>
+                      <p class="text-lg dark:text-white">OVER <span class="text-cl1">150</span> MODELS</p>
+                      <button class="mt-4 bg-cl1 text-white px-8 py-4 rounded-full hover:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-800">LEARN MORE</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class=" p-10 font-font1">
+        <div class="md:px-[320px] flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-center mb-10 dark:text-white">BEST PROPOSES</h1>
+            <button class="text-sm px-4 py-2 -mt-9  bg-cl1 text-center rounded-full text-white">SEE MORE</button>
+        </div>
+        <div class="flex md:flex-row flex-col justify-center md:space-x-2 space-y-5 md:w-[60%] w-full md:ml-80">
+            <!-- Product Card -->
+            <div class="bg-white dark:bg-gray-800 h-full p-6 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300 mt-5">
+                <div class="relative">
+                    <span class="absolute top-0 left-0 -mt-4 bg-green-500 text-xs text-white px-2 py-1 rounded-full">BEST PRICE</span>
+                </div>
+                <div class="mt-5 p-1">
+                    <img src="asset/gambar/produk7.png" alt="Laptop" class="w-48 mx-auto">
+                    
+                    <div class="mt-4">
+                        <h3 class="text-sm text-cl1">MODERN EDITION</h3>
+                        <p class="font-bold dark:text-white">MODERN BEAT HT</p>
+                        <p class="text-xs my-1 dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                        <p class="font-bold dark:text-white">$155.00</p>
+                    </div>
+    
+                    <div class="h-52 w-[278px] absolute md:-mt-[330px] -mt-[330px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-90">
+                        <button class="bg-gray-600 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                        <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Product Card -->
+            <div class="bg-white dark:bg-gray-800 h-full p-6 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="relative">
+                    <span class="absolute top-0 left-0 -mt-4 bg-red-500 text-xs text-white px-2 py-1 rounded-full">20% DISCOUND</span>
+                </div>
+                <div class="mt-5 p-1">
+                    <img src="asset/gambar/produk7.png" alt="Laptop" class="w-48 mx-auto">
+                    
+                    <div class="mt-4">
+                        <h3 class="text-sm text-cl1">MODERN EDITION</h3>
+                        <p class="font-bold dark:text-white">MODERN BEAT HT</p>
+                        <p class="text-xs my-1 dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                        <div class="flex gap-2">
+                            <p class="font-bold text-red-500 line-through">$32.00</p>
+                            <p class="font-bold dark:text-white">$24.00</p>
+                        </div>
+                    </div>
+    
+                    <div class="h-52 w-[278px] absolute md:-mt-[330px] -mt-[330px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-90">
+                        <button class="bg-gray-600 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                        <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Product Card -->
+            <div class="bg-white dark:bg-gray-800 p-6 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="mt-5 p-1">
+                    <div class="relative">
+                        <img src="asset/gambar/produk7.png" alt="Smartphone" class="w-48 mx-auto">
+                    </div>
+                    <div class=" mt-4">
+                        <h3 class="text-sm text-cl1">MODERN EDITION</h3>
+                        <p class="font-bold dark:text-white">MODERN BEAT HT</p>
+                        <p class="text-xs my-1 dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                        <p class="font-bold dark:text-white">$155.00</p>
+                    </div>
+                    <div class="h-52 w-[278px] absolute md:-mt-[330px] -mt-[330px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-90">
+                        <button class="bg-gray-600 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                        <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="mt-40 w-full">
+          <div class="bg-bg4 md:h-96 h-72 bg-fixed bg-parallax bg-no-repeat bg-cover bg-center rounded-lg">
+              <div class="md:max-w-7xl w-full mx-auto  flex h-full">
+                <div class="mt-32 md:-ml-20 ml-8">
+                    <p class="text-white md:text-xl text-lg font-bold uppercase font-font1 md:block hidden">New Season Sale! Up to 70%</p>
+                    <p class="text-white md:text-xl text-base font-bold uppercase font-font1 md:hidden block">New!</p>
+                    <p class="text-white md:text-xl text-2xl font-bold uppercase font-font1 md:hidden block">Logitech <span class="text-base">G435</span></p>
+                    <button id="tm" onclick="showMenu(true)" class="mt-4 hidden bg-transparent md:py-3 md:px-10 py-2 px-7 text-lg  border border-white text-white font-semibold rounded hover:bg-gray-100 hover:text-purple-700 transition duration-300">
+                        Go Now →
+                    </button>
+                </div>
+      
+                <div class="mt-56 ml-[650px] md:block hidden">
+                    <p class="text-white text-7xl font-bold uppercase font-font1">Logitech <span class="text-sm">G435</span></p>
+                    <p class="text-white font-semibold mt-2">LIGHTSPEED Wireless Gaming Headset</p>
+                </div>
+              </div>
+          </div>
+      
+          <div class="flex justify-center mt-20">
+      
+              <div id="Card" class="flex md:w-[80%] shadow-xl space-x-12 p-7 mb-24 bg-white dark:bg-gray-800">
+      
+                  <button class="text-3xl absolute md:ml-[1280px] ml-[335px] dark:text-white dark:hover:text-red-500 -mt-5 hover:text-red-500 transition duration-200" onclick="showMenu(true)">
+                      <i class='bx bx-x'></i>
+                  </button>
+                  
+                  <div class="flex md:flex-row flex-col">
+                    <div class="md:p-7 flex-col space-y-2 md:w-1/2 w-full md:-ml-0 -ml-5 md:mt-0 mt-2">
+                        <img src="asset/gambar/produk11.png" alt="" class="w-full">
+                        <div class="flex space-x-2">
+                            <label for="01" class="relative">
+                                <input type="checkbox" id="01" class="sr-only peer">
+                                <div class="overflow-hidden rounded-xl ring ring-cl1">
+                                    <div class=""><img src="asset/gambar/produk11.png" alt="" class="w-32 rounded-xl"></div>
+                                </div>
+                            </label>
+        
+                            <label for="02" class="relative">
+                                <input type="checkbox" id="02" class="sr-only peer">
+                                <div class="overflow-hidden rounded-xl ring ring-transparent peer-checked:ring-cl1 transition-all duration-200">
+                                    <div class=""><img src="asset/gambar/produk11-1.png" alt="" class="w-32 rounded-xl"></div>
+                                </div>
+                            </label>
+        
+                            <label for="03" class="relative">
+                                <input type="checkbox" id="03" class="sr-only peer">
+                                <div class="overflow-hidden rounded-xl ring ring-transparent peer-checked:ring-cl1 transition-all duration-200">
+                                    <div class=""><img src="asset/gambar/produk11-2.png" alt="" class="w-32 rounded-xl"></div>
+                                </div>
+                            </label>
+        
+                            <label for="04" class="relative">
+                                <input type="checkbox" id="04" class="sr-only peer">
+                                <div class="overflow-hidden rounded-xl ring ring-transparent peer-checked:ring-cl1 transition-all duration-200">
+                                    <div class=""><img src="asset/gambar/produk11-2.png" alt="" class="w-32 rounded-xl"></div>
+                                </div>
+                            </label>
+        
+                            <label for="05" class="relative">
+                                <input type="checkbox" id="05" class="sr-only peer">
+                                <div class="overflow-hidden rounded-xl ring ring-transparent peer-checked:ring-cl1 transition-all duration-200">
+                                    <div class=""><img src="asset/gambar/produk11-3.png" alt="" class="w-32 rounded-xl"></div>
+                                </div>
+                            </label>
+        
+                        </div>
+                    </div>
+        
+                    <div class="flex flex-col p-7 font-font1 md:w-1/2 w-full md:-ml-0 -ml-5">
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-500 dark:text-gray-100">Aksesoris</p>
+                            <p class="text-2xl font-bold dark:text-white">Loops Bluetooth Headphone</p>
+                        </div>
+        
+                        <div class="flex mt-4 space-x-6">
+                            <div class="flex text-lg">
+                                <i class='bx bxs-star' style='color:#FFF000' ></i>
+                                <i class='bx bxs-star' style='color:#FFF000' ></i>
+                                <i class='bx bxs-star' style='color:#FFF000' ></i>
+                                <i class='bx bxs-star' style='color:#FFF000' ></i>
+                                <i class='bx bxs-star-half' style='color:#fff000'  ></i>
+                            </div>
+        
+                            <div class="">
+                                <p class="text-base text-gray-500 dark:text-gray-100">(124 Reviewrs)</p>
+                            </div>
+                        </div>
+        
+                        <div class="flex space-x-5 mt-4">
+                            <p class="text-xl text-gray-400 line-through dark:text-gray-100">$27,36</p>
+                            <p class="text-2xl font-semibold dark:text-white">$27,36</p>
+                        </div>
+        
+                        <div class="flex flex-col mt-5 space-y-5">
+                            <p class="text-base text-gray-400 dark:text-gray-100">Type</p>
+                            <div class="flex space-x-2">
+                                <button class="px-6 py-4 bg-transparent hover:bg-cl1 border border-cl1 dark:text-gray-100 hover:text-gray-100 transition duration-100 rounded-xl text-base">
+                                    <p>Wherless</p>
+                                </button>
+        
+                                <button class="px-6 py-4 bg-transparent hover:bg-cl1 border border-cl1 dark:text-gray-100 hover:text-gray-100 transition duration-100 rounded-xl text-base">
+                                    <p>None Wherless</p>
+                                </button>
+        
+                            </div>
+                        </div>
+        
+                        <div class="flex flex-col mt-16 space-y-3">
+                            <button class="px-8 py-2 bg-cl1 rounded-lg text-base font-medium text-white">Checkout Now</button>
+                            <button class="px-8 py-2 border rounded-lg text-base font-medium dark:text-white">Add To Cart</button>
+                        </div>
+        
+                        <div class="flex flex-col mt-3 space-y-5">
+                            <div class="mt-3">
+                                <ul class="flex space-x-6">
+                                    <a href="#"><li class="text-black dark:text-white font-semibold underline">Detail</li></a>
+                                    <a href="#"><li class="text-gray-400 dark:text-gray-300 hover:text-black hover:font-semibold hover:transition duration-100 hover:underline">Fabric & Fit</li></a>
+                                    <a href="#"><li class="text-gray-400 dark:text-gray-300 hover:text-black hover:font-semibold hover:transition duration-100 hover:underline">Reviews</li></a>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore sunt provident ratione non rerum maiores voluptatum sequi doloribus facilis?</p>
+                            </div>
+                        </div>                
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class=" p-6 mb-40 md:block hidden">
+      <div class="flex w-full justify-between px-[308px]">
+          <h1 class="text-2xl font-bold text-center mb-10 dark:text-white">POPULAR PRODUCTS</h1>
+          <p><a href="" class="py-3 px-5 bg-cl1 text-white font-semibold rounded-full">SEE MORE</a></p>
+      </div>
+      
+      <div class="flex space-x-4 ml-80">
+          <!-- Main Product -->
+          <div class="bg-white dark:bg-gray-800 p-6 shadow-lg rounded-lg w-2/4">
+              <div class="mt-14">
+                      <img src="asset/gambar/produk2-1.png" alt="Smart Watch" class="w-full">
+                  <div class="text-center mt-4">
+                      <h2 class="text-xl font-bold dark:text-white">SMART WATCH ZESERIES</h2>
+                      <p class="text-base my-2 dark:text-gray-100">Sed id purus ac orci pulvinar auctor nec atque</p>
+                      <p class="text-lg font-semibold text-cl1">BEST PRICE: $299.00</p>
+                  </div>
+                  <div class="flex space-x-2 justify-center mt-5">
+                  <div class="py-4 px-5 rounded-full border border-cl1 text-center dark:text-white">
+                      <p>0</p>
+                      <p>DAYS</p>
+                  </div>
+
+                  <div class="py-4 px-5 rounded-full border border-cl1 text-center dark:text-white">
+                      <p>0</p>
+                      <p>DAYS</p>
+                  </div>
+
+                  <div class="py-4 px-5 rounded-full border border-cl1 text-center dark:text-white">
+                      <p>0</p>
+                      <p>DAYS</p>
+                  </div>
+
+                  <div class="py-4 px-5 rounded-full border border-cl1 text-center dark:text-white">
+                      <p>0</p>
+                      <p>DAYS</p>
+                  </div>
+
+                  <div class="py-4 px-5 rounded-full border border-cl1 text-center dark:text-white">
+                      <p>0</p>
+                      <p>DAYS</p>
+                  </div>
+                  </div>
+                  <div class="flex justify-center mt-8">
+                      <button class="py-4 px-8 text-center bg-cl1 hover:bg-gray-700 hover:border-spacing-3 hover:border-blue-700 text-white font-semibold rounded-full">ADD CART</button>
+                  </div>
+                  
+              </div>
+          </div>
+
+
+          <!-- Other Products -->
+          <div class="w-full space-y-9">
+              <div class="space-x-4 w-[60%] flex">
+                  <div class="bg-white dark:bg-gray-800 px-7 py-9 shadow rounded-lg font-font1">
+                      <h3 class="text-xs font-semibold text-cl1">SMARTWATCH EARPHONE</h3>
+                      <P class="text-lg font-bold dark:text-white">EARPHONE 3 SWR50</P>
+                      <img src="asset/gambar/produk2-1.png" alt="Smart Watch" class="w-full">
+                      <div class="mt-2">
+                          <p class="font-bold dark:text-white">$630.00</p>
+                          <p class="text-xs my-2 w-full dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                      </div>
+
+                      <div class="h-44 -ml-2 w-[200px] absolute items-center -mt-[294px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-95">
+                          <div class="-ml-9">
+                              <button class="bg-gray-700 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                              <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                          </div>
+
+                      </div>
+                  </div>
+          
+                  <div class="bg-white dark:bg-gray-800 px-7 py-9 shadow rounded-lg font-font1">
+                      <h3 class="text-xs font-semibold text-cl1">SMARTWATCH EARPHONE</h3>
+                      <P class="text-lg font-bold dark:text-white">EARPHONE 3 SWR50</P>
+                      <img src="asset/gambar/produk2-1.png" alt="Smart Watch" class="w-full">
+                      <div class="mt-2">
+                          <p class="font-bold dark:text-white">$630.00</p>
+                          <p class="text-xs my-2 w-full dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                      </div>
+
+                      <div class="h-44 -ml-2 w-[200px] absolute items-center -mt-[294px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-95">
+                          <div class="-ml-9">
+                              <button class="bg-gray-700 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                              <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="space-x-4 w-[60%] flex ">
+                  <div class="bg-white dark:bg-gray-800 px-7 py-9 shadow rounded-lg font-font1">
+                      <h3 class="text-xs font-semibold text-cl1">SMARTWATCH EARPHONE</h3>
+                      <P class="text-lg font-bold dark:text-white">EARPHONE 3 SWR50</P>
+                      <img src="asset/gambar/produk2-1.png" alt="Smart Watch" class="w-full">
+                      <div class="mt-2">
+                          <p class="font-bold dark:text-white">$630.00</p>
+                          <p class="text-xs my-2 w-full dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                      </div>
+
+                      <div class="h-44 -ml-2 w-[200px] absolute items-center -mt-[294px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-95">
+                          <div class="-ml-9">
+                              <button class="bg-gray-700 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                              <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                          </div>
+
+                      </div>
+                  </div>
+          
+                  <div class="bg-white dark:bg-gray-800 px-7 py-9 shadow rounded-lg font-font1">
+                      <h3 class="text-xs font-semibold text-cl1">SMARTWATCH EARPHONE</h3>
+                      <P class="text-lg font-bold dark:text-white">EARPHONE 3 SWR50</P>
+                      <img src="asset/gambar/produk2-1.png" alt="Smart Watch" class="w-full">
+                      <div class="mt-2">
+                          <p class="font-bold dark:text-white">$630.00</p>
+                          <p class="text-xs my-2 w-full dark:text-gray-100">Mollis nec consequat in feugiat molestie tortor a malesuada etiam a venenatis ipsum</p>
+                      </div>
+
+                      <div class="h-44 -ml-2 w-[200px] absolute items-center -mt-[294px] flex-col bg-white dark:bg-gray-800 bg-opacity-100 opacity-0 transition-opacity duration-300 hover:opacity-95">
+                          <div class="-ml-9">
+                              <button class="bg-gray-700 py-3 px-7 text-white ml-[66px] rounded-full  mb-9 mt-5">Lead More</button>
+                              <button class="bg-cl1 py-3 px-7 text-white ml-[66px] rounded-full ">Lead More</button>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div> 
+          
+      </div>
+        </div>
+
+
+        <div class="md:max-w-7xl w-full mx-auto px-4 py-8 mb-12"> 
+          <div class="text-center mb-12">
+              <h2 class="text-3xl font-bold dark:text-white">WHAT CLIENTS SAY</h2>
+              <p class="text-gray-500">A GREAT PLACE TO SHOW BEST OPINION</p>
+              <div class="h-[3px] md:w-[45%] w-full bg-cl1 md:ml-[360px] mt-4"></div>
+          </div>
+          <div class="flex md:flex-row flex-col justify-center gap-12">
+              <div class="bg-white dark:bg-gray-800 hover:shadow-2xl hover:border-gray-700 dark:hover:border-white dark:border-gray-700 transition duration-500 rounded-lg p-6 md:w-80 w-full border-b-8">
+                  <p class="text-gray-600 italic text-center dark:text-gray-100">"saya juga ingin mengucapkan terima kasih kepada semua staf anda.karena,anda telah sepenuhnya memenuhi harapan kami"</p>
+                  <div class="mt-4 text-center">
+                      <h5 class="text-lg font-semibold dark:text-white">TIMOTHY RONALD</h5>
+                      <p class="text-gray-500 text-sm aria-checked:text-white dark:text-white">Investor and Cryptonian</p>
+                  </div>
+              </div>
+
+              <div class="bg-white dark:bg-gray-800 hover:shadow-2xl hover:border-gray-700 dark:hover:border-white dark:border-gray-700 transition duration-500 rounded-lg p-6 md:w-96 w-full border-b-8">
+                  <p class="text-gray-600 italic text-center dark:text-gray-100">"sebuah kemajuan teknologi yang dimiliki anak muda zaman sekarang,teruslah berkembang "</p>
+                  <div class="mt-4 text-center">
+                      <h5 class="text-lg font-semibold dark:text-white">DEA AFRIZAL</h5>
+                      <p class="text-gray-500 text-sm dark:text-white">Youtuber and Back End Developer</p>
+                  </div>
+              </div>
+
+              <div class="bg-white dark:bg-gray-800 hover:shadow-2xl hover:border-gray-700 dark:hover:border-white dark:border-gray-700 transition duration-500 rounded-lg p-6 md:w-80 w-full border-b-8">
+                  <p class="text-gray-600 italic text-center dark:text-gray-100">"sesuatu yang harus dibanggakan yang dibuat oleh dua orang hebat dari indonesia"</p>
+                  <div class="mt-4 text-center">
+                      <h5 class="text-lg font-semibold dark:text-white">WINDAH BASUDARA</h5>
+                      <p class="text-gray-500 text-sm dark:text-white">Youtuber</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="bg-bg1 md:h-96 h-72 bg-fixed bg-parallax bg-no-repeat bg-cover bg-center">
+            <div class="md:max-w-7xl w-full mx-auto  flex h-full">
+              <div class="mt-32 md:-ml-20 ml-8">
+                  <p class="text-white md:text-xl text-lg font-bold uppercase font-font1">New Season Sale! Up to 70%</p>
+                  <button class="mt-4 bg-transparent md:py-3 md:px-10 py-2 px-7 text-lg  border border-white text-white font-semibold rounded hover:bg-gray-100 hover:text-purple-700 transition duration-300">
+                      Go Shopping →
+                  </button>
+              </div>
+
+              <div class="mt-56 ml-[650px] md:block hidden">
+                  <p class="text-white text-7xl font-bold uppercase font-font1">IPHONE 12 <span class="text-sm">Pro</span></p>
+                  <p class="text-white font-semibold mt-2">UPGREAD NOW!</p>
+              </div>
+            </div>
+        </div>
+    </main>
+
+
+<footer class="bg-white dark:bg-gray-800">
+    <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
+      <div class="lg:flex lg:items-center lg:justify-between">
+        <div class="flex justify-center text-teal-600 sm:justify-start">
+            <img src="asset/gambar/logo1.png" alt="" class="w-96 h-96 dark:hidden">
+            <img src="asset/gambar/logo2.png" alt="" class="w-96 h-96 hidden dark:block">
+        </div>
+  
+        <p class="mt-4 max-w-md text-center leading-relaxed text-gray-500 sm:text-left lg:mt-0 dark:text-gray-100">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
+          cum itaque neque.
+        </p>
+      </div>
+  
+      <div
+        class="mt-16 grid grid-cols-1 gap-8 border-t border-gray-100 pt-16 md:grid-cols-4 lg:grid-cols-6"
+      >
+        <div class="text-center sm:text-left">
+          <p class="text-lg font-medium text-gray-900 dark:text-white">About Us</p>
+  
+          <ul class="mt-8 space-y-4 text-sm">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#">
+                Company History
+              </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Meet the Team </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#">
+                Employee Handbook
+              </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Careers </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="text-center sm:text-left">
+          <p class="text-lg font-medium text-gray-900 dark:text-white">Our Services</p>
+  
+          <ul class="mt-8 space-y-4 text-sm">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#">
+                Web Development
+              </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Web Design </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Marketing </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Google Ads </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="text-center sm:text-left">
+          <p class="text-lg font-medium text-gray-900 dark:text-white">Resources</p>
+  
+          <ul class="mt-8 space-y-4 text-sm">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Online Guides </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#">
+                Conference Notes
+              </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Forum </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Downloads </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#">
+                Upcoming Events
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="text-center sm:text-left">
+          <p class="text-lg font-medium text-gray-900 dark:text-white">Helpful Links</p>
+  
+          <ul class="mt-8 space-y-4 text-sm">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> FAQs </a>
+            </li>
+  
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-100" href="#"> Support </a>
+            </li>
+  
+            <li>
+              <a
+                class="group flex justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
+                href="#"
+              >
+                <span class="text-gray-700 transition group-hover:text-gray-700/75 dark:text-gray-100"> Live Chat </span>
+  
+                <span class="relative flex h-2 w-2">
+                  <span
+                    class="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
+                  ></span>
+                  <span class="relative inline-flex size-2 rounded-full bg-teal-500"></span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="text-center sm:text-left md:col-span-4 lg:col-span-2">
+          <p class="text-lg font-medium text-gray-900 dark:text-white">Stay in Touch</p>
+  
+          <div class="mx-auto mt-8 max-w-md sm:ms-0">
+            <p class="text-center leading-relaxed text-gray-500 ltr:sm:text-left rtl:sm:text-right dark:text-gray-100">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum id, iure consectetur et
+              error hic!
+            </p>
+  
+            <form class="mt-4">
+              <div class="flex flex-col gap-4 sm:flex-row lg:flex-col lg:items-start">
+                <label for="email" class="sr-only">Email</label>
+  
+                <input
+                  class="w-full rounded-full border-gray-200 px-6 py-3 shadow-sm"
+                  type="email"
+                  placeholder="Enter your email"
+                />
+  
+                <button
+                  class="block rounded-full bg-indigo-500 px-8 py-3 font-medium text-white transition hover:bg-indigo-600"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      <div class="mt-16 border-t border-gray-100 pt-6 sm:flex sm:items-center sm:justify-between">
+        <p class="text-center text-sm text-gray-500 sm:text-left dark:text-white">
+          Copyright &copy; 2024. All rights reserved.
+        </p>
+  
+        <ul class="mt-4 flex justify-center gap-6 sm:mt-0 sm:justify-start">
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              class="text-teal-700 transition hover:text-teal-700/75 dark:text-gray-200 dark:hover:text-white"
+            >
+              <span class="sr-only">Facebook</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+  
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              class="text-teal-700 transition hover:text-teal-700/75 dark:text-gray-200 dark:hover:text-white"
+            >
+              <span class="sr-only">Instagram</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+  
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              class="text-teal-700 transition hover:text-teal-700/75 dark:text-gray-200 dark:hover:text-white"
+            >
+              <span class="sr-only">Twitter</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                />
+              </svg>
+            </a>
+          </li>
+  
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              class="text-teal-700 transition hover:text-teal-700/75 dark:text-gray-200 dark:hover:text-white"
+            >
+              <span class="sr-only">GitHub</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+  
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              class="text-teal-700 transition hover:text-teal-700/75 dark:text-gray-200 dark:hover:text-white"
+            >
+              <span class="sr-only">Dribbble</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="p-1 rounded-full fixed bottom-4 left-4 z-2  dark:bg-transparent ring ring-gray-800 dark:ring dark:ring-white" onclick="switchDark()">
+    <i id="iconDark" class="bx bxs-moon text-4xl text-gray-800 dark:text-white"></i>
+    <!-- <i id="iconSun" class="bx bxs-sun text-4xl text-white"></i> -->
+</div>
+  
+<script>
+  var xstatus = false;  
+
+  window.onscroll = function () { menu() };
+        function menu() {
+            if (document.documentElement.scrollTop > 20) {
+                document.getElementById("topHeader").classList.add("bg-white");
+                document.getElementById("topHeader").classList.add("shadow-lg");
+                document.getElementById("topHeader").classList.add("dark:bg-gray-800");
+            } else {
+                if (!xstatus && document.documentElement.scrollTop < 20) {
+                    document.getElementById("topHeader").classList.remove("shadow-lg");
+                }
+
+            }
+        };
+
+
+          function switchDark() {
+            var dark = document.documentElement.classList.toggle('dark');
+            if (dark==true) {
+                document.getElementById("iconDark").classList.add("bxs-sun")
+                document.getElementById("iconDark").classList.remove("bxs-moon")
+            } else {
+                document.getElementById("iconDark").classList.add("bxs-moon")
+                document.getElementById("iconDark").classList.remove("bxs-sun")
+            }
+        };
+
+        function showhideMenu() {
+            console.log('jalan');
+            if (!xstatus) {
+                console.log('false');
+                document.getElementById("menu").classList.remove("hidden");
+                document.getElementById("menu").classList.add("flex");
+                if (document.documentElement.scrollTop < 20) {
+                    document.getElementById("topHeader").classList.add("bg-white");
+                    document.getElementById("topHeader").classList.add("sahdow-lg");
+                    document.getElementById("topHeader").classList.add("dark:bg-gray-800");
+                }
+                xstatus = true;
+            } else {
+                console.log('true');
+                if (document.documentElement.scrollTop < 20) {
+                    document.getElementById("topHeader").classList.remove("bg-white")
+                    document.getElementById("topHeader").classList.remove("shadow-lg")
+                    document.getElementById("topHeader").classList.remove("dark:bg-gray-800")
+                }
+                document.getElementById("menu").classList.remove("flex");
+                document.getElementById("menu").classList.add("hidden");
+                xstatus = false
+            }
+        }
+
+        let Card = document.getElementById("Card");
+                  let tm = document.getElementById("tm")
+                  
+                  const showMenu = () => {
+                      Card.classList.toggle('hidden')
+                      tm.classList.toggle('hidden')
+                  };
+</script>
+</body>
+
+</html>
